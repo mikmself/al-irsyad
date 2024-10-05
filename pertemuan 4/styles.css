@@ -1,0 +1,13 @@
+.card{
+    background-color: salmon;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.card-image{
+    width: 100px;
+    height: 100px; 
+    border-radius: 20px;
+
+}
