@@ -3,18 +3,27 @@
     padding: 20px;
     width: 400px;
     border-radius: 20px;
-    /* tambahan */
-    border: 5px solid black; 
+    border: 5px dashed black; 
+    margin: 3cm auto;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    width: 500px;
+    background-color: green;
+    transition: all;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
 }
 
 .card-image{
     width: 100px;
-    height: 100px; 
+    height: 100px;
     border-radius: 20px;
 }
 
-.line{
-
-    width: 200px;
-
+.text-sedang{
+ font-size: 16px;
+ text-transform:uppercase;
+ font-weight: bold;
 }
