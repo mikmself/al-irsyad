@@ -3,11 +3,18 @@
     padding: 20px;
     width: 400px;
     border-radius: 20px;
+    /* tambahan */
+    border: 5px solid black; 
 }
 
 .card-image{
     width: 100px;
     height: 100px; 
     border-radius: 20px;
+}
+
+.line{
+
+    width: 200px;
 
 }
