@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 10cm;
+    height: auto;
+    background-color: rgb(166, 220, 220);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.form-input{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: .3cm;
+}
+.row{
+    flex-direction: row !important;
+}
+button{
+    align-self: flex-start;
+    margin: .5cm;
+    width: 2cm;
+    height: .7cm;
+}
+input[type='email'],
+input[type='password']{
+    height: .8cm;
+    border-radius: 10px;
+}
