@@ -1,0 +1,42 @@
+/* ketik shift + 8 */
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+header img{
+    width: 3cm;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: .5cm;
+    color: black;
+}
+header nav a:hover{
+    color: green;
+}
+main section#home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main section#home .left{
+    width: 50%;
+    padding: 1cm;
+}
+section#home .left h1{
+    font-size: 50px;
+}
+section#home .left p{
+    font-size: 25px;
+}
