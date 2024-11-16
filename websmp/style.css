@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
 }
+body, main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 header{
     width: 100%;
     display: flex;
@@ -39,4 +47,45 @@ section#home .left h1{
 }
 section#home .left p{
     font-size: 25px;
+}
+section .left a{
+    text-decoration: none;
+    background-color: green;
+    padding: .2cm .7cm;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 1cm;
+}
+
+main section#tentang{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section#tentang h1{
+    font-size: 30px;
+}
+section#tentang p{
+    font-size: 18px;
+}
+section{
+    margin-top: 2cm;
+}
+section#ekstrakulikuler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section#ekstrakulikuler .card{
+    width: 32%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
 }
